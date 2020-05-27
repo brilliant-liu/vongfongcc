@@ -20,7 +20,7 @@ eureka:
 
 ribbon:
   ReadTimeout: 10000 # 建立连接从服务器读取到可用资源所用的时间
-  ConnectionTimeout: 1000 # 建立连接所用时间
+  ConnectionTimeout: 9000 # 建立连接所用时间
 
 logging:
   level:
